@@ -4,9 +4,9 @@ Library     JSONLibrary
 Library     Collections
 Resource    Pages/keywords.robot
 Resource    Steps/steps.robot
-Resource    ../Data/variables/common.robot
-Resource    ../Data/variables/user.robot
-Resource    ../Data/variables/endpoints.robot
+Resource    ../Data/common.robot
+Resource    ../Data/user.robot
+Resource    ../Data/endpoints.robot
 
 *** Keywords ***
 Perform GET Request
